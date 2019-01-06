@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+    </style>
+
+    <style name="ActionButtonOverflow" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <!--Here you need to put name of drawable you will create during the next step-->
+        <item name="android:src">@drawable/ic_more_vert_white</item>
+    </style>
+</resources>
